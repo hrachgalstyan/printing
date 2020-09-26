@@ -3,7 +3,7 @@ import React from 'react';
 const Examples = () => {
   return (
     <>
-    <div className="container-fluid py-0 mt-5">
+    <div className="container-fluid py-0">
       <div className="row">
         <div className="col-lg-6 col-md-12 col-sm-12 col-12 img-1">
           {/* <img src={image1} height="98.23%" width="100%" className="img-1 p-0 m-0" alt="ticket-1" /> */}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Login, SignUp, About, Contact, Error } from './pages';
+import { Home, Login, SignUp, About, Services, Privacy, Contact, Error } from './pages';
 import { Navbar, Footer } from './components';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ScrollTop from './components/ScrollTop';
@@ -25,8 +25,14 @@ function App() {
         <Route path="/about">
           <About />
         </Route>
+        <Route path="/services">
+          <Services />
+        </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/privacy">
+          <Privacy />
         </Route>
 
         {/* Error Route */}

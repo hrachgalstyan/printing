@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Error() {
   return (
-    <div>
+    <div style={{marginTop: "96px"}}>
       Error
     </div>
   )
