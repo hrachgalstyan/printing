@@ -32,6 +32,7 @@ body {
     overflow-x: hidden;
     outline: none;
     background: #EEf4Fb;
+    background: "#fff" !important;
 }
 
 .polygon {

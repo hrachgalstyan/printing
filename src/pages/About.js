@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
-      <div className="container text-center pb-5">
+    <div className="bg-white">
+      <div className="container text-center pb-3">
         <div className="row mb-lg-5 mb-4 text-center mx-auto">
             <div className="single-post mx-auto text-center" style={{width: "85%"}}>
               <h3 className="heading-secondary p-3 my-3 text-center" style={{color: "#5FB7EA"}}>Մեր մասին</h3>
