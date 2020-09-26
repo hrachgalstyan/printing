@@ -35,7 +35,7 @@ const Example = (props) => {
               <Link className="nav-link text-center px-3" to="/contact" style={{fontSize: "16px", color: "#fff"}}>Կապ</Link>
             </NavItem>
             <NavItem className="d-block d-lg-none">
-              <Link className="nav-link text-center px-3 py-2 mx-auto" to="/contact" style={{background: "#5FB7EA", borderRadius: "28px", width: "170px", color: "#fff"}}>+374-44-44-44-44</Link>
+              <a className="nav-link text-center px-3 py-2 mx-auto" href="tel:+37444151415" style={{background: "#5FB7EA", borderRadius: "28px", color: "#fff", fontSize: "14px"}}>+374-44-00-00-00</a>
             </NavItem>
             <NavItem className="d-flex d-lg-none justify-content-center my-3">
               <i className="px-3 fa fa-facebook" style={{fontSize: "24px", color: "#3b5999"}} aria-hidden="true"></i>
@@ -44,7 +44,7 @@ const Example = (props) => {
               <i className="px-3 fa fa-google" style={{fontSize: "24px", color: "#dd4b39"}} aria-hidden="true"></i>
             </NavItem>
           </Nav>
-          <NavbarText className="px-3 p-2 d-none d-lg-flex mr-lg-5 mr-3" style={{background: "#5FB7EA", borderRadius: "28px", color: "#fff", fontSize: "13px"}}><a href="tel:+37444151415" style={{color: "#fff"}}>+374(44)-00-00-00</a></NavbarText>
+          <NavbarText className="px-3 p-2 d-none d-lg-flex mr-lg-5 mr-3" style={{background: "#5FB7EA", borderRadius: "28px", color: "#fff", fontSize: "14px"}}><a href="tel:+37444151415" style={{color: "#fff"}}>+374(44)-00-00-00</a></NavbarText>
         </Collapse>
       </Navbar>
     </div>
